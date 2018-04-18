@@ -1,0 +1,38 @@
+#menuCanvas {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  z-index: 0;
+}
+
+#gameCanvas {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  z-index: 2;
+}
+
+#menuSprite {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  z-index: 1;
+}
+#brickCanvas {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  z-index: 3;
+}
+#countCanvas {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  z-index: 4;
+}
+
+.names {
+  position: absolute;
+  left: 85%;
+  top: 450px;
+}

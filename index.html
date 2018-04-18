@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HW3</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!--  Latest compiled JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+  <body onload="Game.initialize();Graphics.bricks.drawBricks();Menu.drawMenu();">
+    <div class="panel">
+      <div class="panel-body gameContent">
+        <div class="row">
+          <div class="col-md-6 pull-left cnvCont">
+            <canvas id="menuCanvas" width=1000 height=620 style="border:1px solid #000000;"></canvas>
+            <canvas id="gameCanvas" width=1000 height=620 style="border:1px solid #000000;"></canvas>
+            <canvas id="menuSprite" class="hidden" width=1000 height=620 style="border:1px solid #000000;"></canvas>
+            <canvas id="brickCanvas" class="hidden" width=1000 height=620 style="border:1px solid #000000;"></canvas>
+            <canvas id="countCanvas" class="hidden" width=1000 height=620 style="border:1px solid #000000;"></canvas>
+            <input  type="text" class="hidden names" width=300 height=200></input>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javaScript" src="main.js"></script>
+    <script type="text/javaScript" src="bricks.js"></script>
+    <script type="text/javaScript" src="graphics.js"></script>
+    <script type="text/javaScript" src="credits.js"></script>
+    <script type="text/javaScript" src="menu.js"></script>
+    <script type="text/javaScript" src="highScores.js"></script>
+    <script type="text/javaScript" src="gameOver.js"></script>
+  </body>
+</html>
